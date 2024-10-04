@@ -1,0 +1,178 @@
+{
+    "computers": [
+        {
+            "id": 1,
+            "model": "Macbook Pro",
+            "year": 2015
+        },
+        {
+            "id": 2,
+            "model": "Acer Laptop",
+            "year": 2018
+        },
+        {
+            "id": 3,
+            "model": "Macbook Air",
+            "year": 2019
+        },
+        {
+            "id": 4,
+            "model": "Thinkpad Laptop",
+            "year": 2015
+        },
+        {
+            "id": 5,
+            "model": "100 Raspberry Pis",
+            "year": 2022
+        }
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "firstName": "Rainu",
+            "lastName": "Ittycheriah",
+            "computerId": 1,
+            "age": 28,
+            "departmentId": 1,
+            "locationId": 1
+        },
+        {
+            "id": 2,
+            "firstName": "Bob",
+            "lastName": "Ross",
+            "computerId": 2,
+            "age": 42,
+            "departmentId": 1,
+            "locationId": 2
+        },
+        {
+            "id": 3,
+            "firstName": "Ricardo",
+            "lastName": "Tessitori",
+            "computerId": 3,
+            "age": 49,
+            "departmentId": 2,
+            "locationId": 2
+        },
+        {
+            "id": 4,
+            "firstName": "Some",
+            "lastName": "Guy",
+            "computerId": 4,
+            "age": 34,
+            "departmentId": 1,
+            "locationId": 3
+        },
+        {
+            "id": 5,
+            "firstName": "Another",
+            "lastName": "Guy",
+            "computerId": 5,
+            "age": 39,
+            "departmentId": 3,
+            "locationId": 1
+        }
+    ],
+    "departments": [
+        {
+            "id": 1,
+            "name": "Sales"
+        },
+        {
+            "id": 2,
+            "name": "QA"
+        },
+        {
+            "id": 3,
+            "name": "Accounting"
+        },
+        {
+            "id": 4,
+            "name": "Custodial"
+        }
+    ],
+    "locations": [
+        {
+            "id": 1,
+            "name": "Nashville"
+        },
+        {
+            "id": 2,
+            "name": "Atlanta"
+        },
+        {
+            "id": 3,
+            "name": "Memphis"
+        }
+    ],
+    "customers": [
+        {
+            "id": 1,
+            "name": "Juniper Distribution"
+        },
+        {
+            "id": 2,
+            "name": "Bartlett Systems"
+        },
+        {
+            "id": 3,
+            "name": "Tessitori Limited"
+        },
+        {
+            "id": 4,
+            "name": "Oblivion Incorporated"
+        }
+    ],
+    "employeeCustomers": [
+        {
+            "id": 1,
+            "employeeId": 1,
+            "customerId": 3
+        },
+        {
+            "id": 2,
+            "employeeId": 1,
+            "customerId": 2
+        },
+        {
+            "id": 3,
+            "employeeId": 2,
+            "customerId": 4
+        },
+        {
+            "id": 4,
+            "employeeId": 2,
+            "customerId": 1
+        },
+        {
+            "id": 5,
+            "employeeId": 3,
+            "customerId": 3
+        },
+        {
+            "id": 6,
+            "employeeId": 3,
+            "customerId": 1
+        },
+        {
+            "id": 7,
+            "employeeId": 4,
+            "customerId": 4
+        },
+        {
+            "id": 8,
+            "employeeId": 4,
+            "customerId": 2
+        },
+        {
+            "id": 9,
+            "employeeId": 5,
+            "customerId": 3
+        },
+        {
+            "id": 10,
+            "employeeId": 5,
+            "customerId": 1
+        }
+    ]
+}

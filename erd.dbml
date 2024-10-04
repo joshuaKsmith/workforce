@@ -1,0 +1,42 @@
+Table employees {
+    id int [pk]
+    firstName varchar
+    lastName varchar
+    computerId int
+    age int
+    departmentId int
+    locationId int
+}
+
+Table computers {
+    id int [pk]
+    model varchar
+    year int
+}
+
+Table departments {
+    id int [pk]
+    name varchar
+}
+
+Table locations {
+    id int [pk]
+    name varchar
+}
+
+Table customers {
+    id int [pk]
+    name varchar
+}
+
+Table employeeCustomers {
+    id int [pk]
+    customerId int
+    employeeId int
+}
+
+ref: computers.id - employees.computerId
+ref: departments.id < employees.departmentId
+ref: locations.id < employees.locationId
+ref: customers.id < employeeCustomers.customerId
+ref: employees.id < employeeCustomers.employeeId
